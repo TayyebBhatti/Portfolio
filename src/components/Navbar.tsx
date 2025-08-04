@@ -81,7 +81,7 @@ const Navbar = () => {
         size="sm"
         className={mobile ? "w-full justify-start" : ""}
         onClick={() => {
-          window.open("https://github.com/nerod100", "_blank");
+          window.open("https://github.com/TayyebBhatti", "_blank");
         }}
       >
         <GitHubLogoIcon className="w-4 h-4 mr-2" />

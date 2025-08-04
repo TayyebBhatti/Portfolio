@@ -115,7 +115,7 @@ const Contact = () => {
                   <Button
                     variant="outline"
                     className="w-full justify-start"
-                    onClick={() => window.open("https://github.com/nerod100", "_blank")}
+                    onClick={() => window.open("https://github.com/TayyebBhatti", "_blank")}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     GitHub
