@@ -20,11 +20,10 @@ const App = () => (
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="*" element={<About />} />
           <Route path="/competences" element={<Skills />} />
           <Route path="/projets" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
